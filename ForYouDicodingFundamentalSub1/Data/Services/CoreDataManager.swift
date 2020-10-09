@@ -51,7 +51,6 @@ class CoreDataManager{
 
                 game.setValue(rating, forKeyPath: "rating")
 
-
                 do {
                     try moc.save()
                     //            FavouritesViewController.game.append(person)
@@ -68,7 +67,6 @@ class CoreDataManager{
 
     }
 
-
     func fetchGame() -> [Game] {
         do{
             let request = NSFetchRequest<Game>(entityName: "Game")
@@ -83,71 +81,3 @@ class CoreDataManager{
 
 }
 
-//class CoreDataManager {
-//
-//    var moc : NSManagedObjectContext
-//
-//    static let shared  = CoreDataManager(moc: NSManagedObjectContext.current)
-//
-//    private init(moc : NSManagedObjectContext) {
-//        self.moc = moc
-//    }
-//
-//    private func fetchOrder(name : String) -> Game? {
-//        var game = [Game]()
-//
-//        let request : NSFetchRequest<Game> = Game.fetchRequest()
-//        request.predicate = NSPredicate(format: "name == %@", name )
-//
-//        do{
-//            game = try self.moc.fetch(request)
-//        }catch let error as NSError{
-//            print(error)
-//
-//        }
-//
-//        return game.first
-//    }
-//
-//    func deleteOrder(name : String) {
-//        do {
-//            if let game = fetchOrder(name: name){
-//
-//                self.moc.delete(game)
-//                try self.moc.save()
-//            }
-//        }catch let error as NSError{
-//            print(error)
-//
-//        }
-//    }
-//
-//    func getAllOder() -> [Game] {
-//        var game = [Game]()
-//        let gamerequest : NSFetchRequest<Game> = Game.fetchRequest()
-//
-//        do{
-//            game = try self.moc.fetch(gamerequest)
-//        }catch let error as NSError {
-//            print(error)
-//
-//        }
-//        return game
-//    }
-//
-//
-//    func saveOrder(id : Int, image : String, rating : Double, release : String, title : String ){
-//        let game = Game(context: self.moc)
-//        game.id = Int64(id)
-//        game.image = image
-//        game.rating = rating
-//        game.released = release
-//        game.title = title
-//
-//        do{
-//            try self.moc.save()
-//        }catch let error as NSError{
-//            print(error )
-//        }
-//    }
-//}
