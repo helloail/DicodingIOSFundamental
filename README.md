@@ -12,7 +12,7 @@ this app is final submission to Dicoding IOS Fundamentan and the architechture u
 
 you can read full article [here](https://tech.olx.com/clean-architecture-and-mvvm-on-ios-c9d167d9f5b3)
 
-<img src="https://github.com/helloail/DicodingIOSFundamentalSubmission/blob/foldering/Screenshoot/priview1.png" width="300" height="600"><img src="https://github.com/helloail/DicodingIOSFundamentalSubmission/blob/foldering/Screenshoot/priview2.png" width="300" height="600"><img src="https://github.com/helloail/DicodingIOSFundamentalSubmission/blob/foldering/Screenshoot/priview3.png" width="300" height="600"><img src="https://github.com/helloail/DicodingIOSFundamentalSubmission/blob/foldering/Screenshoot/priview4.png" width="300" height="600"><img src="https://github.com/helloail/DicodingIOSFundamentalSubmission/blob/foldering/Screenshoot/priview5.png" width="300" height="600">
+<img src="https://github.com/helloail/DicodingIOSFundamental/blob/foldering/Screenshoot/priview1.png" width="300" height="600"><img src="https://github.com/helloail/DicodingIOSFundamental/blob/foldering/Screenshoot/priview2.png" width="300" height="600"><img src="https://github.com/helloail/DicodingIOSFundamental/blob/foldering/Screenshoot/priview3.png" width="300" height="600"><img src="https://github.com/helloail/DicodingIOSFundamental/blob/foldering/Screenshoot/priview4.png" width="300" height="600"><img src="https://github.com/helloail/DicodingIOSFundamental/blob/foldering/Screenshoot/priview5.png" width="300" height="600">
 
 
 ## Harap diperhatikan!
