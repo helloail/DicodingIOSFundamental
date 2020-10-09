@@ -1,5 +1,4 @@
 # DicodingIOSFundamental
-# DicodingIOSFundamentalSubmission
 this app is final submission to Dicoding IOS Fundamentan and the architechture using MVVM with Clean Architecture. There are 3 main layers, Presentation, Domain, and Data layers.
 
 
