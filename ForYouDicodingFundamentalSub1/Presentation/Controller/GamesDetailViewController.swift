@@ -24,8 +24,6 @@ class GamesDetailViewController: UIViewController {
         TVGameDetails.separatorStyle = UITableViewCell.SeparatorStyle.none
         TVGameDetails.tableFooterView = UIView()
        
-        
-        
         if let id = setid{
              gamesdetailviewmodel.didload(id)
         }
@@ -47,15 +45,7 @@ class GamesDetailViewController: UIViewController {
             }
         }
         
-//        gamesdetailviewmodel.backgroundcolor.observe(on: self) { background in
-//            switch background {
-//            case .black
-//
-//            default
-//
-//            }
-//            
-//        }
+
         
         gamesdetailviewmodel.errorMessage.observe(on: self) { errorMessage in
             print(errorMessage)
