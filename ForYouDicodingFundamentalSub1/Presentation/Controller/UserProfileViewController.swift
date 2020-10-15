@@ -22,7 +22,7 @@ class UserProfileViewController: UIViewController {
     }
     
     func setupCircle(_ image : UIImageView){
-        image.layer.borderWidth= 1.0
+        image.layer.borderWidth = 1.0
         image.layer.masksToBounds = false
         image.clipsToBounds = true
         image.layer.borderColor = UIColor.white.cgColor
